@@ -184,7 +184,7 @@ mxShapePidSharedCont.prototype.foreground = function(c, x, y, w, h)
 		c.lineTo(w, h * 0.5);
 		c.stroke();
 	}
-	else if (mounting === mxShapePidDiscInst.prototype.cst.LOCAL)
+	else if (mounting === mxShapePidSharedCont.prototype.cst.LOCAL)
 	{
 		c.begin();
 		c.moveTo(w * 0.005, h * 0.48);
